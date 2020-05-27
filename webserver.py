@@ -14,7 +14,7 @@ def allowed_file(filename):
     return '.' in filename and \
            filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
-
+# this code allows to download files from this server commented out when not in use
 #@app.route("/<filename>")
 #def uploaded_file(filename):
 #    return send_from_directory(app.config["UPLOAD_FOLDER"], filename)
