@@ -6,3 +6,5 @@ Install the requirements with `pip install -r requirements.txt`
 Run as per any other flask app with `python webserver.py`
 
 Modify the port etc from the webserver.py file if you want to bind to another port / interface
+
+Also needs a folder called `files` in the directory you're running from (to put the files there)
